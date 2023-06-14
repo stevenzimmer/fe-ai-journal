@@ -5,6 +5,5 @@ export default function Page() {
     <div className="max-w-lg mx-auto flex items-center h-screen">
       <SignUp afterSignUpUrl={"/new-user"} redirectUrl={"/new-user"}  />
     </div>
-  )
-  ;
+  );
 }
